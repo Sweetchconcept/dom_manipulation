@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cart {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.quantity-btn, .delete-btn, .like-btn {
+    cursor: pointer;
+}
+
+.like-btn.liked {
+    color: red;
+}
+
+.total {
+    text-align: right;
+    margin-top: 20px;
+}
